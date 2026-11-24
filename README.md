@@ -22,3 +22,19 @@ Repositorio oficial de artefactos experimentales del artículo **"Arquitectura N
    python3 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
+
+bash
+
+ollama pull qwen2.5:7b
+python check_setup.py
+python analisis_paper.py
+python ejecutar_pipeline_paper.py
+
+fragmento de código
+
+@inproceedings{spinelli2026checkpoint,
+  title={Arquitectura Neuro-Simb{\'o}lica con Guardrails Deterministas para Agentes en Videojuegos},
+  author={Spinelli, Adolfo Tom{\'a}s and Guccione, Leonel and Rico, Carlos Alberto},
+  institution={Grupo de Investigaci{\'o}n en Tecnolog{\'i}as Interactivas (GTI), Facultad de Ingenier{\'i}a, Universidad Nacional de Mar del Plata},
+  year={2026}
+}
