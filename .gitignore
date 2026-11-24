@@ -1,0 +1,19 @@
+# Credenciales y variables de entorno (CRÍTICO)
+.env
+*.json
+!resultados_ablacion_final_raw.json
+
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Manuscritos en proceso de revisión
+*.pdf
+*.docx
+
+# Artefactos de corridas intermedias / no finales
+resultados_ablacion_raw.json
+desglose_violaciones.csv
+fig1_comparacion_rvr.png
+fig2_latencia_boxplot.png
